@@ -168,4 +168,3 @@ class PlaneModel
         return $this->status;
     }
 }
-

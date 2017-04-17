@@ -168,4 +168,3 @@ class Flight
         return $this->takeofTime;
     }
 }
-
