@@ -167,4 +167,33 @@ class Flight
     {
         return $this->takeofTime;
     }
+    /**
+     * @var \WCS\CoavBundle\Entity\PlaneModel
+     */
+    private $planemodel;
+
+
+    /**
+     * Set planemodel
+     *
+     * @param \WCS\CoavBundle\Entity\PlaneModel $planemodel
+     *
+     * @return Flight
+     */
+    public function setPlanemodel(\WCS\CoavBundle\Entity\PlaneModel $planemodel = null)
+    {
+        $this->planemodel = $planemodel;
+
+        return $this;
+    }
+
+    /**
+     * Get planemodel
+     *
+     * @return \WCS\CoavBundle\Entity\PlaneModel
+     */
+    public function getPlanemodel()
+    {
+        return $this->planemodel;
+    }
 }
