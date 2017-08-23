@@ -11,6 +11,9 @@ class Terrain
     public function __toString()
     {
         // TODO: Implement __toString() method.
+        if(is_null($this->name)) {
+            return 'NULL';
+        }
         return $this->name;
     }
 
